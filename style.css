@@ -13,8 +13,8 @@ body {
 /* general */
 
 .container {
-  width: 100%;
-  max-width: 960px;
+  width: 980px;
+  
   margin: 0 auto;
   clear: both;
 }
@@ -113,8 +113,7 @@ footer {
 
 .sidebar {
   float: right;
-  width: 100%;
-  max-width: 270px;
+  width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -240,20 +239,37 @@ input[type=submit] {
 
 ////////////////////////////////////////////////
 
-@media only screen
- and (min-width : 640px)
- and (max-width : 640px) {
+
+
+
+
+
+ @media only screen 
+  and (min-width: 768px)
+   {
+    .main-section {
+  float: left;
+  width: 100%;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+.sidebar {
+  float: right;
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+
+  }
+
+
+  @media only screen
+   and (min-width : 640px)
+  { 
 
  }
-
- @media only screen 
-  and (min-width: 960px)
-  and (max-width: 960px) {
-
-  }
-
- @media only screen 
-  and (min-width : 980px) {
-
-  }
-
